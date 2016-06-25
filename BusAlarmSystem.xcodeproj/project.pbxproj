@@ -9,22 +9,15 @@
 /* Begin PBXBuildFile section */
 		5E4B4A571D1E578E00F546A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4B4A561D1E578E00F546A7 /* main.m */; };
 		5E4B4A5A1D1E578E00F546A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4B4A591D1E578E00F546A7 /* AppDelegate.m */; };
-		5E4B4A5D1D1E578E00F546A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E4B4A5C1D1E578E00F546A7 /* ViewController.m */; };
 		5E4B4A601D1E578E00F546A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4B4A5E1D1E578E00F546A7 /* Main.storyboard */; };
-		5E4B4A621D1E578E00F546A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4B4A611D1E578E00F546A7 /* Assets.xcassets */; };
-		5E4B4A651D1E578E00F546A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4B4A631D1E578E00F546A7 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E4B4A521D1E578E00F546A7 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4B4A521D1E578E00F546A7 /* Bus-Alarm-System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bus-Alarm-System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4B4A561D1E578E00F546A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5E4B4A581D1E578E00F546A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5E4B4A591D1E578E00F546A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5E4B4A5B1D1E578E00F546A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5E4B4A5C1D1E578E00F546A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5E4B4A5F1D1E578E00F546A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5E4B4A611D1E578E00F546A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5E4B4A641D1E578E00F546A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E4B4A661D1E578E00F546A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,7 +35,7 @@
 		5E4B4A491D1E578E00F546A7 = {
 			isa = PBXGroup;
 			children = (
-				5E4B4A541D1E578E00F546A7 /* test */,
+				5E4B4A541D1E578E00F546A7 /* BusAlarmSystem */,
 				5E4B4A531D1E578E00F546A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,24 +43,21 @@
 		5E4B4A531D1E578E00F546A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E4B4A521D1E578E00F546A7 /* test.app */,
+				5E4B4A521D1E578E00F546A7 /* Bus-Alarm-System.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E4B4A541D1E578E00F546A7 /* test */ = {
+		5E4B4A541D1E578E00F546A7 /* BusAlarmSystem */ = {
 			isa = PBXGroup;
 			children = (
 				5E4B4A581D1E578E00F546A7 /* AppDelegate.h */,
 				5E4B4A591D1E578E00F546A7 /* AppDelegate.m */,
-				5E4B4A5B1D1E578E00F546A7 /* ViewController.h */,
-				5E4B4A5C1D1E578E00F546A7 /* ViewController.m */,
 				5E4B4A5E1D1E578E00F546A7 /* Main.storyboard */,
-				5E4B4A611D1E578E00F546A7 /* Assets.xcassets */,
-				5E4B4A631D1E578E00F546A7 /* LaunchScreen.storyboard */,
 				5E4B4A661D1E578E00F546A7 /* Info.plist */,
 				5E4B4A551D1E578E00F546A7 /* Supporting Files */,
 			);
+			name = BusAlarmSystem;
 			path = test;
 			sourceTree = "<group>";
 		};
@@ -82,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E4B4A511D1E578E00F546A7 /* test */ = {
+		5E4B4A511D1E578E00F546A7 /* Bus-Alarm-System */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E4B4A691D1E578E00F546A7 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 5E4B4A691D1E578E00F546A7 /* Build configuration list for PBXNativeTarget "Bus-Alarm-System" */;
 			buildPhases = (
 				5E4B4A4E1D1E578E00F546A7 /* Sources */,
 				5E4B4A4F1D1E578E00F546A7 /* Frameworks */,
@@ -94,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = "Bus-Alarm-System";
 			productName = test;
-			productReference = 5E4B4A521D1E578E00F546A7 /* test.app */;
+			productReference = 5E4B4A521D1E578E00F546A7 /* Bus-Alarm-System.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E4B4A4D1D1E578E00F546A7 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 5E4B4A4D1D1E578E00F546A7 /* Build configuration list for PBXProject "BusAlarmSystem" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E4B4A511D1E578E00F546A7 /* test */,
+				5E4B4A511D1E578E00F546A7 /* Bus-Alarm-System */,
 			);
 		};
 /* End PBXProject section */
@@ -136,8 +126,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E4B4A651D1E578E00F546A7 /* LaunchScreen.storyboard in Resources */,
-				5E4B4A621D1E578E00F546A7 /* Assets.xcassets in Resources */,
 				5E4B4A601D1E578E00F546A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,7 +137,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E4B4A5D1D1E578E00F546A7 /* ViewController.m in Sources */,
 				5E4B4A5A1D1E578E00F546A7 /* AppDelegate.m in Sources */,
 				5E4B4A571D1E578E00F546A7 /* main.m in Sources */,
 			);
@@ -164,14 +151,6 @@
 				5E4B4A5F1D1E578E00F546A7 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5E4B4A631D1E578E00F546A7 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E4B4A641D1E578E00F546A7 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -268,7 +247,7 @@
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "teamProject2-testPjt.test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bus-Alarm-System";
 			};
 			name = Debug;
 		};
@@ -279,14 +258,14 @@
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "teamProject2-testPjt.test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Bus-Alarm-System";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E4B4A4D1D1E578E00F546A7 /* Build configuration list for PBXProject "test" */ = {
+		5E4B4A4D1D1E578E00F546A7 /* Build configuration list for PBXProject "BusAlarmSystem" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E4B4A671D1E578E00F546A7 /* Debug */,
@@ -295,13 +274,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E4B4A691D1E578E00F546A7 /* Build configuration list for PBXNativeTarget "test" */ = {
+		5E4B4A691D1E578E00F546A7 /* Build configuration list for PBXNativeTarget "Bus-Alarm-System" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E4B4A6A1D1E578E00F546A7 /* Debug */,
 				5E4B4A6B1D1E578E00F546A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

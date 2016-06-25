@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5E4B4A511D1E578E00F546A7"
-               BuildableName = "test.app"
-               BlueprintName = "test"
-               ReferencedContainer = "container:test.xcodeproj">
+               BuildableName = "Bus-Alarm-System.app"
+               BlueprintName = "Bus-Alarm-System"
+               ReferencedContainer = "container:BusAlarmSystem.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5E4B4A511D1E578E00F546A7"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "Bus-Alarm-System.app"
+            BlueprintName = "Bus-Alarm-System"
+            ReferencedContainer = "container:BusAlarmSystem.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5E4B4A511D1E578E00F546A7"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "Bus-Alarm-System.app"
+            BlueprintName = "Bus-Alarm-System"
+            ReferencedContainer = "container:BusAlarmSystem.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5E4B4A511D1E578E00F546A7"
-            BuildableName = "test.app"
-            BlueprintName = "test"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "Bus-Alarm-System.app"
+            BlueprintName = "Bus-Alarm-System"
+            ReferencedContainer = "container:BusAlarmSystem.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
